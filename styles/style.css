@@ -1,3 +1,15 @@
 @charset "UTF-8";
-/* CSS Document */
 
+#intro {
+	max-width:1170px;
+	margin: 0 auto;
+}
+
+
+
+#column-features {
+	width:33%;
+	background-color:red;
+	float:left;
+}
+	
