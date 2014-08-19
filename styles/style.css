@@ -1,15 +1,87 @@
 @charset "UTF-8";
 
-#intro {
+.space  {
 	max-width:1170px;
 	margin: 0 auto;
 }
 
+#home {
+	background-color:yellow;
+	overflow:auto;
+}
 
+header {
+	background-color:white;
+	overflow:auto;
+}
+
+h1 {
+	float:left;
+}
+
+nav {
+	float:right;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav li {
+	float:left;
+  	margin-right: 20px;
+}
+
+#intro-umbrella {
+	float:left;
+	clear:left;
+}
+
+#hand {
+	float:right;
+	max-height:inherit;
+}
+
+#features {
+	clear:both;
+}
 
 #column-features {
 	width:33%;
 	background-color:red;
 	float:left;
 }
+
+#screenshot {
+	clear:both;
+	background-color:gray;
+	overflow:auto;
+}
+
+.stuff {
+	width:20%;
+	background-color:green;
+	float:left;
+}
 	
+#people {
+	background-color:gray;
+	overflow:auto;
+}
+	
+#john, #amanda, #hamberg, #jessica {
+	width:25%;
+	background-color:blue;
+	float:left;
+}
+
+#in {
+	background-color:yellow;
+	overflow:auto;
+}
+
+#umbrella, #subscribe, #explore, #end {
+	width:25%;
+	float:left;
+}
+
