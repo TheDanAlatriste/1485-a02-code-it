@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 body {
+	margin-top:0;
 	margin-left:0;
 	margin-right:0;
 }
@@ -8,6 +9,8 @@ body {
 .space  {
 	max-width:1170px;
 	margin: 0 auto;
+	padding-left:20px;
+	padding-right:20px;
 }
 
 * {
@@ -26,10 +29,22 @@ body {
 header {
 	background-color:white;
 	overflow:auto;
+	margin-top:20px;
+	margin-bottom:10px;
+}
+
+#umbrella-logo {
+	float:left;
+	width:70px;
+	height:60px;
+	padding-left:20px;
+	padding-top:10px;
+	padding-botton:15px;
 }
 
 h1 {
 	float:left;
+	padding-left:10px;
 }
 
 nav {
@@ -50,15 +65,17 @@ nav li {
 	clear:left;
 }
 
-#home img {
+#hand {
+	float:right;
+	margin-bottom:-10px;
 	width:40%;
 }
 
-#hand {
-	float:right;
+.heading {
+	text-align:center;
 }
 
-#column-features img {
+.column-features img {
 	width:100%;
 }
 
@@ -66,7 +83,7 @@ nav li {
 	clear:both;
 }
 
-#column-features {
+.column-features {
 	width:33%;
 	float:left;
 	padding-right:30px;
@@ -96,13 +113,27 @@ nav li {
 	background-color:#FAFAFA;
 	overflow:auto;
 }
+
+#people img {
+	width:100%;
+}
 	
 #john, #amanda, #hamberg, #jessica {
 	width:25%;
-	background-color:blue;
 	float:left;
 	padding-right:30px;
+}
 
+#yellow-box {
+	opacity:.9;
+}
+
+.gray-boxes {
+	opacity:.1;
+}
+
+#circle {
+	width:10%;
 }
 
 #in {
@@ -112,12 +143,23 @@ nav li {
 
 #contact {
 	border-bottom-color:#f8e514;
-	border-bottom-width:thick;
+	border-bottom-width:medium;
+	border-style:solid;
+	border-top-color:white;
+	border-left-color:white;
+	border-right-color:white;
+	
 }
+
+#half-phone {
+	float:right;
+	clear:both;
+	width:30%;
 
 #umbrella, #subscribe, #explore, #end {
 	width:25%;
 	float:left;
 	padding-right:30px;
 }
+
 
