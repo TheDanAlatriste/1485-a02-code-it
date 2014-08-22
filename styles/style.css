@@ -15,14 +15,14 @@ body {
 
 * {
 	box-sizing:border-box;
-	-webkit-box-sizing:border-box;
 	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
 }
 
 #home {
 	background-image:url(../images/laptop.png);
 	background-color:#f8e514;
-	overflow:auto;
+	overflow:hidden;
 	
 }
 
@@ -39,7 +39,7 @@ header {
 	height:60px;
 	padding-left:20px;
 	padding-top:10px;
-	padding-botton:15px;
+	padding-bottom:15px;
 }
 
 h1 {
@@ -71,15 +71,15 @@ nav li {
 	width:40%;
 }
 
-.heading {
+.heading, #ceo {
 	text-align:center;
 }
 
-.column-features img {
+.column-features img, #people img {
 	width:100%;
 }
 
-#features {
+#features, footer, #screenshot, #people {
 	clear:both;
 }
 
@@ -89,8 +89,7 @@ nav li {
 	padding-right:30px;
 }
 
-#screenshot {
-	clear:both;
+#screenshot, #people {
 	background-color:#FAFAFA;
 	overflow:auto;
 }
@@ -108,17 +107,8 @@ nav li {
 #screens {
 	padding-left:30px;
 }
-	
-#people {
-	background-color:#FAFAFA;
-	overflow:auto;
-}
 
-#people img {
-	width:100%;
-}
-	
-#john, #amanda, #hamberg, #jessica {
+#john, #amanda, #hamberg, #jessica, #umbrella, #subscribe, #explore, #end { 
 	width:25%;
 	float:left;
 	padding-right:30px;
@@ -141,25 +131,25 @@ nav li {
 	overflow:auto;
 }
 
-#contact {
-	border-bottom-color:#f8e514;
-	border-bottom-width:medium;
+footer {
+	border-top-color:#f8e514;
+	border-top-width:thick;
 	border-style:solid;
-	border-top-color:white;
+	border-bottom-color:white;
 	border-left-color:white;
 	border-right-color:white;
-	
+}
+
+#message {
+	float:left;
 }
 
 #half-phone {
 	float:right;
-	clear:both;
 	width:30%;
-
-#umbrella, #subscribe, #explore, #end {
-	width:25%;
-	float:left;
-	padding-right:30px;
+	margin-bottom:-15%;
 }
 
-
+#contact {
+	overflow:hidden;
+}
