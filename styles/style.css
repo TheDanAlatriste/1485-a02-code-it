@@ -4,6 +4,7 @@ body {
 	margin-top:0;
 	margin-left:0;
 	margin-right:0;
+	font-family:'Open Sans', sans-serif;
 }
 
 .space  {
@@ -31,12 +32,14 @@ header {
 	overflow:auto;
 	margin-top:20px;
 	margin-bottom:10px;
+	position:fixed;
+	width:78%;
 }
 
 #umbrella-logo {
 	float:left;
 	width:70px;
-	height:60px;
+	height:70px;
 	padding-left:20px;
 	padding-top:10px;
 	padding-bottom:15px;
@@ -49,6 +52,8 @@ h1 {
 
 nav {
 	float:right;
+	padding-top:9px;
+	font-size:15px;
 }
 
 nav ul {
@@ -63,24 +68,39 @@ nav li {
 #intro-umbrella {
 	float:left;
 	clear:left;
+	position:relative;
+	top:300px;
+	margin-top:-50px;
 }
 
 #hand {
 	float:right;
 	margin-bottom:-10px;
 	width:40%;
+	clear:left;
 }
 
 .heading, #ceo {
 	text-align:center;
 }
 
+.description {
+	max-width:70%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
 .column-features img, #people img {
 	width:100%;
 }
 
-#features, footer, #screenshot, #people {
-	clear:both;
+#tools:hover, #clock:hover, #music:hover, #person:hover, #arrow:hover, #camera:hover {
+	background-color:#f8e514;
+	overflow:auto;
+}
+
+#features, #gallery, footer, #screenshot, #people {
+	clear:left;
 }
 
 .column-features {
@@ -88,6 +108,17 @@ nav li {
 	float:left;
 	padding-right:30px;
 }
+
+.features-text {
+	clear:none;
+}
+
+.pe-7s-paper-plane, .pe-7s-camera, .pe-7s-user, .pe-7s-music, .pe-7s-timer, .pe-7s-tools {
+	float:left;
+	padding-right:20px;
+	padding-bottom:30%;
+}
+
 
 #screenshot, #people {
 	background-color:#FAFAFA;
