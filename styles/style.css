@@ -66,8 +66,14 @@ nav ul {
 
 nav li {
 	float:left;
-  	margin-right: 20px;
+  	margin-right:20px;
 }
+
+nav li a {
+	text-decoration:none;
+	font-size:15px;
+}
+
 
 #intro-umbrella {
 	float:left;
@@ -81,22 +87,44 @@ nav li {
 	float:right;
 	margin-bottom:-10px;
 	width:40%;
-	clear:left;
+	margin-top:200px;
 }
 
 .heading, #ceo {
 	text-align:center;
+	margin-top:50px;
+	margin-bottom:50px;
 }
 
-#look, #down {
+#home h2 {
+	font-size:30px;
+}
+
+#home p {
+	font-size:22px;
+}
+
+#home li {
+	font-size:15px;
+	margin-bottom:15px;
+}
+
+home .button {
 	float:left;
-	padding-right:20px;
+	padding:15px 30px;
+	text-decoration:none;
+	border: 3px solid #000;
+	margin-right:20px;
+	margin-top:30px;
+	font-size:22px;
 }
 
 .description {
 	max-width:70%;
 	margin-left:auto;
 	margin-right:auto;
+	margin-top:50px;
+	margin-bottom:80px;
 }
 
 .column-features img, #people img {
@@ -116,6 +144,7 @@ nav li {
 	width:33%;
 	float:left;
 	padding-right:30px;
+	padding-bottom:40px;
 }
 
 .features-text {
@@ -132,6 +161,7 @@ nav li {
 #screenshot, #people {
 	background-color:#FAFAFA;
 	overflow:auto;
+	padding-bottom:60px;
 }
 
 .shots, .sideshots {
@@ -154,6 +184,10 @@ nav li {
 	padding-right:30px;
 }
 
+h3 {
+	margin-bottom:-10px;
+}
+
 #yellow-box {
 	opacity:.9;
 }
@@ -171,7 +205,43 @@ nav li {
 	overflow:auto;
 }
 
+form {
+	max-width:400px;
+}
+
+input {
+  width:100%;
+  border:0;
+  border-bottom: 1px solid #ccc;
+  padding:25px 0;
+  font-size:12px;
+}
+
+input:focus {
+  outline:0;
+}
+
+button {
+  border:0;
+  background:transparent;
+  text-decoration:none;
+  color:#000;
+  font-size:18px;
+  padding:0;
+  margin-top:25px;
+  cursor:pointer;
+}
+
+#half-phone {
+	float:right;
+	width:90%;
+	margin-bottom:-40%;
+}
+
 footer {
+	width:100%;
+	clear:left;
+	padding-top:30px;
 	border-top-color:#f8e514;
 	border-top-width:thick;
 	border-style:solid;
@@ -182,12 +252,6 @@ footer {
 
 #message {
 	float:left;
-}
-
-#half-phone {
-	float:right;
-	width:30%;
-	margin-bottom:-15%;
 }
 
 #contact {
