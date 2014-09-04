@@ -109,7 +109,7 @@ nav li a {
 	margin-bottom:15px;
 }
 
-home .button {
+.homebutton {
 	float:left;
 	padding:15px 30px;
 	text-decoration:none;
@@ -117,6 +117,10 @@ home .button {
 	margin-right:20px;
 	margin-top:30px;
 	font-size:22px;
+}
+
+.pe-7s-cloud-download, .pe-7s-look {
+	padding-right:15px;
 }
 
 .description {
@@ -134,6 +138,10 @@ home .button {
 #tools:hover, #clock:hover, #music:hover, #person:hover, #arrow:hover, #camera:hover {
 	background-color:#f8e514;
 	overflow:auto;
+	-webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
 }
 
 #features, #gallery, footer, #screenshot, #people {
@@ -149,12 +157,12 @@ home .button {
 
 .features-text {
 	clear:none;
+	padding-left:40px;
 }
 
 .pe-7s-paper-plane, .pe-7s-camera, .pe-7s-user, .pe-7s-music, .pe-7s-timer, .pe-7s-tools {
 	float:left;
 	padding-right:20px;
-	padding-bottom:30%;
 }
 
 
@@ -176,6 +184,32 @@ home .button {
 	
 #screens {
 	padding-left:30px;
+}
+
+#video {
+	background-color:#f8e514;
+	overflow:auto;
+	font-size:50px;
+	text-align:center;
+}
+
+#play {
+	padding-top:250px;
+	padding-bottom:200px;
+}
+
+#videoumbrella {
+	float:right;
+	padding-right:20px;
+	width:100px;
+}
+
+#videologo {
+	float:right;
+	padding-right:5%;
+	padding-bottom:20px;
+	color:white;
+	font-size:30px;
 }
 
 #john, #amanda, #hamberg, #jessica, #umbrella, #subscribe, #explore, #end { 
@@ -205,8 +239,13 @@ h3 {
 	overflow:auto;
 }
 
+#hello {
+	margin-bottom:30px;
+}
+
 form {
-	max-width:400px;
+	float:left;
+	max-width:45%;
 }
 
 input {
@@ -232,28 +271,117 @@ button {
   cursor:pointer;
 }
 
+button:hover {
+  opacity:.5;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
 #half-phone {
 	float:right;
-	width:90%;
-	margin-bottom:-40%;
+	width:30%;
+	margin-bottom:-10%;
+}
+
+#contact {
+	overflow:hidden;
 }
 
 footer {
-	width:100%;
-	clear:left;
-	padding-top:30px;
+	clear:both;
+	padding-top:50px;
 	border-top-color:#f8e514;
 	border-top-width:thick;
 	border-style:solid;
 	border-bottom-color:white;
 	border-left-color:white;
 	border-right-color:white;
+} 
+
+.clear:before, .clear:after{
+    content:"";
+    display:table;
 }
 
-#message {
+.clear:after{
+    clear:both;
+}
+
+.clear{
+    zoom:1;
+}    
+
+.form-wrapper {
+    width: 100%;
+    border-radius: 4px 0 0 4px;
+    border:4px solid #000;
+}
+
+.form-wrapper input {
+    padding: 10px 5px;
+    float: left;   
+    border: 0;    
+}
+
+.form-wrapper input:focus {
+    outline: 0;
+}
+
+.form-wrapper button {
+    font-size:25px;
+    width:15%;
+    overflow: visible;
+    position: relative;
+    float: right;
+    border: 0;
+    padding: 10px;
+    cursor: pointer;
+    color: #ccc;
+    text-transform: uppercase;
+    background:transparent;
+}  
+
+#subscribe p {
+	clear:left;
+	padding-top:20px;
+}
+
+#explore a {
+	text-decoration:none;
+}
+
+#linkone, #linktwo {
 	float:left;
+	width:50%;
 }
 
-#contact {
-	overflow:hidden;
+#linktwo {
+	padding-left:25px;
+}
+
+#linkone a, #linktwo a {
+	float:left;
+	clear:left;
+	font-size:15px;
+	padding-bottom:10px;
+}
+
+#explore a:hover {
+  opacity:.5;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+#end p {
+	padding-left: 10px;
+	border-left: 2px solid #f8e514;
+}
+
+small {
+	padding-left: 10px;
+	font-size:13px;
 }
