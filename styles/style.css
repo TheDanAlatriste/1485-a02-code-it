@@ -173,6 +173,7 @@ nav li a {
 .pe-7s-paper-plane, .pe-7s-camera, .pe-7s-user, .pe-7s-music, .pe-7s-timer, .pe-7s-tools {
 	float:left;
 	padding-right:20px;
+	font-size:25px;
 }
 
 
@@ -205,6 +206,8 @@ nav li a {
 
 #video i {
 	color:white;
+	position:relative;
+	left:4px;
 }
 
 #play {
@@ -232,16 +235,59 @@ nav li a {
 	padding-right:30px;
 }
 
+#john h3, #amanda h3, #hamberg h3, #jessica h3 {
+	padding-top:250px;
+}
+
+.texttouch {
+  float: left;
+  position: relative;
+}
+
+.texttouch .span {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0,0,0,0.6);
+  background-color:#f8e514;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-top:5px;
+  font-size:15px;
+  float:left;
+}
+
+.texttouch:hover .span {
+  display: block;
+}
+
+.peopleicons {
+	width:28%;
+	float:left;
+	padding-top:80px;
+	padding-right:20px;
+	position:relative;
+	left:30px;
+	opacity:.5;
+}
+
 h3 {
 	margin-bottom:-10px;
 }
 
-#yellow-box {
-	opacity:.9;
-}
-
 .gray-boxes {
 	opacity:.1;
+}
+
+#quotes {
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size:100px;
+	color:#E2E2E2;
 }
 
 #circle {
@@ -256,9 +302,42 @@ h3 {
 #in img {
 	width:20%;
 	float:left;
-	padding-right:30px;
 	padding-bottom:200px;
 	padding-top:150px;
+}
+
+#verge {
+	position:relative;
+	top:18px;
+	opacity:.2;
+	padding-right:80px
+}
+
+#mashable {
+	position:relative;
+	top:15px;
+	opacity:.2;
+	padding-right:80px
+}
+
+#behance {
+	position:relative;
+	top:15px;
+	opacity:.2;
+	padding-right:80px
+}
+
+#tnw {
+	position:relative;
+	padding-right:80px
+}
+
+#dribbble {
+	position:relative;
+	top:-11px;
+	left:30px;
+	opacity:.2;
+	padding-right:80px;
 }
 
 #hello {
@@ -268,6 +347,7 @@ h3 {
 #contact form {
 	float:left;
 	max-width:45%;
+	margin-right:120px;
 }
 
 #contact input {
@@ -301,6 +381,21 @@ button:hover {
   transition: all .2s ease-in-out;
 }
 
+#icons {
+	width:25px;
+	float:left;
+	margin-left:10px;
+	padding-top:30px;
+}
+
+#icons img {
+	width:100%;
+	float:left;
+	clear:left;
+	opacity:.3;
+	padding-bottom:15px;
+}
+
 #half-phone {
 	float:right;
 	width:30%;
@@ -332,10 +427,6 @@ footer {
     clear:both;
 }
 
-.clear {
-    zoom:1;
-}    
-
 .form-wrapper {
     width: 100%;
     border-radius: 4px 0 0 4px;
@@ -366,6 +457,13 @@ footer {
     text-transform: uppercase;
     background:transparent;
 	margin-top:-10px;
+}
+
+#contact form i {
+	font-size:30px;
+	position:relative;
+	top:5px;
+	padding-right:5px;
 }
 
 #umbrella img {
